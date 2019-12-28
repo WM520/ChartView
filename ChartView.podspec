@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ChartView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ChartView.'
+  s.summary          = '组件库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '组件库'
 
   s.homepage         = 'https://github.com/WM520/ChartView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'WM520' => 'n_sfyu@3songshu.com' }
+  s.author           = { 'WM520' => '1071597946@qq.com' }
   s.source           = { :git => 'https://github.com/WM520/ChartView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

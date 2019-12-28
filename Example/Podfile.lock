@@ -1,0 +1,16 @@
+PODS:
+  - ChartView (0.1.0)
+
+DEPENDENCIES:
+  - ChartView (from `../`)
+
+EXTERNAL SOURCES:
+  ChartView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChartView: f4d38fc6c8ed8e2ddf5eb2b1b8f547fa8f7889b6
+
+PODFILE CHECKSUM: 2cab1264b1969e78c4ab121a7429472c356a8a48
+
+COCOAPODS: 1.8.4

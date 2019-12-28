@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A42DE2E23B74FFE006C4430 /* ZHPickView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A42DE2C23B74FFE006C4430 /* ZHPickView.h */; };
+		0A42DE2F23B74FFE006C4430 /* ZHPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A42DE2D23B74FFE006C4430 /* ZHPickView.m */; };
+		631CD5D3C61D536D5B086203066523E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		738A564004F769C7594751B68BC8A7E9 /* ChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A09C48FB5543BDF7A0B40CA51E2AF705 /* ChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF6916B03BDB5740B4BC88270D5E5AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CBF69B60FEDE052BA30A1CD0469FC1CA /* Pods-ChartView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2DA9DD87F311395DACE8838B27CB832 /* Pods-ChartView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6831317AF598C071B9EBD47418F9F9D /* Pods-ChartView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 018EAA5817F6E51CECD8590F13C8B8D3 /* Pods-ChartView_Tests-dummy.m */; };
+		EB94776834071B3A673BDE7F22814169 /* ChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7903A942FC3793ADDBFC2CCBF016A7 /* ChartView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60DE5C6A0A880AC840C1B28F892A9DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7094D87C646E2109B216BEAB4176226;
+			remoteInfo = ChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018EAA5817F6E51CECD8590F13C8B8D3 /* Pods-ChartView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChartView_Tests-dummy.m"; sourceTree = "<group>"; };
+		0A42DE2C23B74FFE006C4430 /* ZHPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZHPickView.h; path = ChartView/Classes/ZHPickView.h; sourceTree = "<group>"; };
+		0A42DE2D23B74FFE006C4430 /* ZHPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZHPickView.m; path = ChartView/Classes/ZHPickView.m; sourceTree = "<group>"; };
+		1E1277369CB6E45A48FCA3E4896E6AE8 /* Pods-ChartView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChartView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		20751D8FD3AFE0015AE53695D1863924 /* ChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChartView.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D7903A942FC3793ADDBFC2CCBF016A7 /* ChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChartView-dummy.m"; sourceTree = "<group>"; };
+		405E87B93D3A8AE21F7899FFE2F47CA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		55F0A78846B9B8CBC97902FD2BC25DB4 /* ChartView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ChartView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60B4E10DB2BBE378394E10908AA49BD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		614431E85BDEAEC9EA4D94625C2DFF51 /* Pods-ChartView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChartView_Tests-Info.plist"; sourceTree = "<group>"; };
+		61A4132CFD6F52FBC10170D1871E91AE /* ChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChartView.xcconfig; sourceTree = "<group>"; };
+		629B60A915EC52496FA54BBBA2BD58DC /* Pods-ChartView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChartView_Tests.modulemap"; sourceTree = "<group>"; };
+		67328802B0495687A21BFE5671518A1D /* ChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		802FFA0D4A8D3EC4FBD244C05DA35A46 /* Pods-ChartView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChartView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8A5DF0F593D19D39C62451CD785FF3FF /* Pods-ChartView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChartView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		947CD71032D81740E1FC7BCB8B37EACA /* Pods-ChartView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChartView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F5A20C8F89FCFAF49317BCF08B136EC /* Pods_ChartView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09C48FB5543BDF7A0B40CA51E2AF705 /* ChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChartView-umbrella.h"; sourceTree = "<group>"; };
+		A2DA9DD87F311395DACE8838B27CB832 /* Pods-ChartView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChartView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A63B1E1D7A5B142F72210434EAB71F2C /* Pods-ChartView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChartView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3BF669B14C388A8C5BA35FA8E5F2DF7 /* ChartView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChartView-Info.plist"; sourceTree = "<group>"; };
+		E547C46AD066BD3EF7D304BCBF3F0B56 /* ChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChartView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5688D0F3D16C0D7E5D060986EBC3EA24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631CD5D3C61D536D5B086203066523E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C845E9974261801733D267F15E70DEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF6916B03BDB5740B4BC88270D5E5AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64ED7C567FC1589EA50BB92A634B903C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20751D8FD3AFE0015AE53695D1863924 /* ChartView.modulemap */,
+				61A4132CFD6F52FBC10170D1871E91AE /* ChartView.xcconfig */,
+				3D7903A942FC3793ADDBFC2CCBF016A7 /* ChartView-dummy.m */,
+				E3BF669B14C388A8C5BA35FA8E5F2DF7 /* ChartView-Info.plist */,
+				E547C46AD066BD3EF7D304BCBF3F0B56 /* ChartView-prefix.pch */,
+				A09C48FB5543BDF7A0B40CA51E2AF705 /* ChartView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ChartView";
+			sourceTree = "<group>";
+		};
+		8824F36C5D5E5E6966D3D64DCB9F8BB1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5450D17FB8A2552E67AE65843B95C17 /* Pods-ChartView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		894794608D817564B59ECEBE6F82A541 /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				F38F83CD1C439C3EB08679A7F8778156 /* Pod */,
+				64ED7C567FC1589EA50BB92A634B903C /* Support Files */,
+				0A42DE2C23B74FFE006C4430 /* ZHPickView.h */,
+				0A42DE2D23B74FFE006C4430 /* ZHPickView.m */,
+			);
+			name = ChartView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C184E3874723DB9D1D4C2DC446835AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67328802B0495687A21BFE5671518A1D /* ChartView.framework */,
+				9F5A20C8F89FCFAF49317BCF08B136EC /* Pods_ChartView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5450D17FB8A2552E67AE65843B95C17 /* Pods-ChartView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				629B60A915EC52496FA54BBBA2BD58DC /* Pods-ChartView_Tests.modulemap */,
+				8A5DF0F593D19D39C62451CD785FF3FF /* Pods-ChartView_Tests-acknowledgements.markdown */,
+				A63B1E1D7A5B142F72210434EAB71F2C /* Pods-ChartView_Tests-acknowledgements.plist */,
+				018EAA5817F6E51CECD8590F13C8B8D3 /* Pods-ChartView_Tests-dummy.m */,
+				802FFA0D4A8D3EC4FBD244C05DA35A46 /* Pods-ChartView_Tests-frameworks.sh */,
+				614431E85BDEAEC9EA4D94625C2DFF51 /* Pods-ChartView_Tests-Info.plist */,
+				A2DA9DD87F311395DACE8838B27CB832 /* Pods-ChartView_Tests-umbrella.h */,
+				1E1277369CB6E45A48FCA3E4896E6AE8 /* Pods-ChartView_Tests.debug.xcconfig */,
+				947CD71032D81740E1FC7BCB8B37EACA /* Pods-ChartView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ChartView_Tests";
+			path = "Target Support Files/Pods-ChartView_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DAC65D2D776B5800024D925765BB63D7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C184E3874723DB9D1D4C2DC446835AB9 /* Products */,
+				8824F36C5D5E5E6966D3D64DCB9F8BB1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC65D2D776B5800024D925765BB63D7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				894794608D817564B59ECEBE6F82A541 /* ChartView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F38F83CD1C439C3EB08679A7F8778156 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				55F0A78846B9B8CBC97902FD2BC25DB4 /* ChartView.podspec */,
+				405E87B93D3A8AE21F7899FFE2F47CA1 /* LICENSE */,
+				60B4E10DB2BBE378394E10908AA49BD4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B4196D64E72279CCEB9D61128A0E331 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF69B60FEDE052BA30A1CD0469FC1CA /* Pods-ChartView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A92E12B66BC773499E3A2D92F8FC08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A42DE2E23B74FFE006C4430 /* ZHPickView.h in Headers */,
+				738A564004F769C7594751B68BC8A7E9 /* ChartView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A664C4B75710BA499C0E321E8AB8D7B /* Pods-ChartView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9B437CBB9F22469F5DE9644500A774 /* Build configuration list for PBXNativeTarget "Pods-ChartView_Tests" */;
+			buildPhases = (
+				2B4196D64E72279CCEB9D61128A0E331 /* Headers */,
+				68393EA71369E01828F5ED9DD8E6F43F /* Sources */,
+				C845E9974261801733D267F15E70DEEF /* Frameworks */,
+				542CC1C5792C8A2F6090AA76EB4CF396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EDD494FC5BFAE6F4C99B4C97494E6F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChartView_Tests";
+			productName = "Pods-ChartView_Tests";
+			productReference = 9F5A20C8F89FCFAF49317BCF08B136EC /* Pods_ChartView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7094D87C646E2109B216BEAB4176226 /* ChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A60FCCC848D9371797B99ECE45FA86B /* Build configuration list for PBXNativeTarget "ChartView" */;
+			buildPhases = (
+				57A92E12B66BC773499E3A2D92F8FC08 /* Headers */,
+				F18AD695C5E86CF4DE1D1071647F15FC /* Sources */,
+				5688D0F3D16C0D7E5D060986EBC3EA24 /* Frameworks */,
+				FCE94C1DA7682C76C36321B378AB3F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartView;
+			productName = ChartView;
+			productReference = 67328802B0495687A21BFE5671518A1D /* ChartView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C184E3874723DB9D1D4C2DC446835AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7094D87C646E2109B216BEAB4176226 /* ChartView */,
+				2A664C4B75710BA499C0E321E8AB8D7B /* Pods-ChartView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542CC1C5792C8A2F6090AA76EB4CF396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE94C1DA7682C76C36321B378AB3F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68393EA71369E01828F5ED9DD8E6F43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6831317AF598C071B9EBD47418F9F9D /* Pods-ChartView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AD695C5E86CF4DE1D1071647F15FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB94776834071B3A673BDE7F22814169 /* ChartView-dummy.m in Sources */,
+				0A42DE2F23B74FFE006C4430 /* ZHPickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EDD494FC5BFAE6F4C99B4C97494E6F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChartView;
+			target = F7094D87C646E2109B216BEAB4176226 /* ChartView */;
+			targetProxy = 60DE5C6A0A880AC840C1B28F892A9DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80F782EC2A2B9228FFCE3E9C5389FFB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A4132CFD6F52FBC10170D1871E91AE /* ChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChartView/ChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChartView/ChartView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChartView/ChartView.modulemap";
+				PRODUCT_MODULE_NAME = ChartView;
+				PRODUCT_NAME = ChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92474F12EABCF2EE9929BDB17C4D7181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1277369CB6E45A48FCA3E4896E6AE8 /* Pods-ChartView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChartView_Tests/Pods-ChartView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChartView_Tests/Pods-ChartView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98F50C1AD075CE6B2FFC294981CA015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947CD71032D81740E1FC7BCB8B37EACA /* Pods-ChartView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChartView_Tests/Pods-ChartView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChartView_Tests/Pods-ChartView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC853D5D9BA508058DB08AAC117C7F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A4132CFD6F52FBC10170D1871E91AE /* ChartView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChartView/ChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChartView/ChartView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChartView/ChartView.modulemap";
+				PRODUCT_MODULE_NAME = ChartView;
+				PRODUCT_NAME = ChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A60FCCC848D9371797B99ECE45FA86B /* Build configuration list for PBXNativeTarget "ChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC853D5D9BA508058DB08AAC117C7F4D /* Debug */,
+				80F782EC2A2B9228FFCE3E9C5389FFB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9B437CBB9F22469F5DE9644500A774 /* Build configuration list for PBXNativeTarget "Pods-ChartView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92474F12EABCF2EE9929BDB17C4D7181 /* Debug */,
+				98F50C1AD075CE6B2FFC294981CA015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
