@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ChartView_Tests' do
+  pod 'ChartView', :path => '../'
+  
+  
+end
